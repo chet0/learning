@@ -1,3 +1,134 @@
 https://roadmap.sh/system-design
 
 https://leetcode.com/discuss/post/229177/my-system-design-template-by-topcat-vtk2/
+
+https://c4model.com/diagrams/code
+
+https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/scaling_aws/README.md
+
+
+https://interviewing.io/mocks?technical=system-design
+
+https://ehotinger.com/blog/system-design-interviews-framework-and-strategy/
+
+https://huixxi.github.io/2020/07/13/Basic-System-Design
+
+10 common software architectural patterns in a nutshell
+
+https://medium.com/data-science/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013
+https://towardsdatascience.com/?s=10+common+software+architectural+patterns+in+a+nutshell
+
+https://www.redhat.com/en/blog/14-software-architecture-patterns
+
+https://www.solutionpatterns.io/solution-pattern-modernization-cdc/solution-pattern-modernization-cdc/02-architecture.html
+
+https://www.redhat.com/en/blog/5-essential-patterns-software-architecture
+
+Saga pattern: 
+https://microservices.io/patterns/data/saga.html
+
+
+Practical ::
+
+
+Functional Requirements
+Let's begin with what the app must do:
+* User Authentication: PIN, biometrics (FaceID/Fingerprint), and 2FA
+* Account Management: View balances, transaction history
+* Fund Transfers: Internal and external transfers
+* Bill Payments: Utilities, loans, credit cards
+* Card Controls: Freeze, change limits, request new card
+* Customer Support: Chat, ticketing, FAQs
+* Push Notifications: Real-time alerts for transactions
+* ATM & Branch Locator: With real-time maps integration
+Non-Functional Requirements
+A banking app is mission-critical. So you must prioritize:
+* Security: PCI-DSS, GDPR, zero-trust architecture
+* Scalability: Handle millions of users simultaneously
+* Availability: 99.99% uptime SLA
+* Low Latency: Sub-second API response times
+* Auditability: End-to-end transaction logging
+
+Authentication and Authorization
+
+
+
+Components that are valid for different systems designs:
+
+Monitoring & Logging
+* Logging: Use structured logs (JSON) with trace IDs
+* Crash Reporting: Firebase Crashlytics, Sentry
+* Real-Time Metrics: CPU, memory, DB queries, response times
+* Alerting: Set thresholds for fraud, errors, downtime
+
+
+Testing Strategy
+* Unit Tests: Business logic
+* Integration Tests: API + DB
+* UI Tests: Appium, Espresso, XCTest
+* Security Tests: Static code analysis + pen testing
+* Load Testing: Simulate 1M concurrent users
+  Deployment & Scaling
+* Microservices: Scale horizontally via Kubernetes
+* CDN: Serve static content and images faster
+* Blue-Green Deployments: Zero-downtime rollouts
+* Feature Flags: Control experimental rollouts
+
+ensure that the architectural vision matches the business goals and technical requirements.
+
+Show vision by considering scalability, security, maintainability, and the capability to command and energise development teams
+Problem-solving: Well analytical skills to deal with architectural problems and performance issues.
+Communication: Successfully conveying your ideas, design choices, and trade-offs to both technical and non-technical members of your stakeholders.
+
+Ability to handle the architecture of cloud applications (e.g., AWS, Azure, Google Cloud) to take advantage of their scalability, reliability, and ecosystem of services.
+
+Architecture and systems design
+
+
+8) How would you approach designing a complex software system from scratch?
+This query evaluates the candidate's strategy for initiating and managing extensive software projects. Here is the sample answer to this question:
+a) Understanding requirements: Collaborating with stakeholders to capture business objectives, user needs, and technical specifications.
+b) Modular design: Segmenting the system into smaller, independent modules based on their functions and responsibilities.
+c) Choosing technologies: Selecting the right tools, languages, and frameworks that align with the project's goals and scalability needs.
+d) Architectural blueprint: Creating an initial high-level design that supports scalability, ease of maintenance, and future growth, whether through microservices, monolithic, or hybrid models.
+e) Agile development: It involves embracing an iterative development process to build, test, and refine the system in stages, allowing for adjustments based on feedback or changing requirements.
+f) Early validation with prototypes: Develop prototypes or Minimum Viable Products (MVPs) to test ideas, gather user feedback, and make necessary iterations early in development.
+
+9) How do you ensure an architecture can handle growing user loads and maintain performance?
+This question probes the candidate's capacity to design efficient and scalable systems as user loads increase. Essential strategies include:
+a) Designing for scalability: Employing architectures like microservices because they can scale parts of the system independently according to demand.
+b) Implementing load balancing: Utilising load balancers to evenly distribute traffic and prevent overload on any single server.
+c) Effective caching: Leveraging caching to minimise database load and speed up response times by storing frequently accessed data.
+d) Asynchronous communication: Using message queues and asynchronous operations to manage intensive tasks without impeding user interactions.
+e) Proactive performance optimisation: Regularly conducting performance evaluations and load testing to identify and address bottlenecks.
+f) Continuous monitoring: Setting up detailed monitoring and observability tools to quickly identify and resolve performance issues.
+
+10) What goes into designing security measures within an architecture?
+This question focuses on the candidate's approach to embedding security within the architectural framework. Key elements include:
+Adopting Least Privilege means restricting access rights for users and systems to the minimum necessary for them to perform their duties.
+a) Securing data transfers: Ensuring all data transmissions are encrypted and safeguarded, both in transit and at rest.
+b) Robust access control: Implementing comprehensive authentication and authorisation mechanisms, including multi-factor authentication and detailed access permissions.
+c) Preventing vulnerabilities: Applying input validation and sanitisation to protect against attacks like SQL injection and XSS.
+d) Routine security evaluations: Conduct systematic security audits and penetration testing to uncover and mitigate potential vulnerabilities.
+e) Embedding security practices: Integrating security measures throughout the development lifecycle and staying current with emerging threats.
+
+ Decision-making and Strategy
+
+11) How do you ensure your architectural decisions support the project's business objectives?
+To ensure architectural decisions align with business objectives, it's crucial to:
+a) Engage stakeholders: Regularly communicate with stakeholders to understand business goals and integrate their insights into the architectural strategy.
+b) Balanced design: Craft architectures that balance technical excellence with practical business needs, considering scalability, cost-effectiveness, and time-to-market.
+c) Iterative review: Continuously reassess the architecture and business strategy, adapting as necessary to ensure alignment.
+d) Measure impact: Use Key Performance Indicators (KPIs) to assess how architectural choices affect business outcomes, adjusting strategies based on this feedback.
+12) How do you handle disagreements with team members about architectural decisions?
+This question probes into conflict resolution and collaborative decision-making within architectural planning. A thoughtful response includes:
+a) Open communication: Encouraging a culture of open dialogue where team members feel valued and heard, fostering constructive discussions about architectural decisions.
+b) Evidence-based arguments: Basing discussions on data, research, and best practices rather than personal preferences to find the most effective solutions.
+c) Compromise and consensus building: Finding a middle ground that aligns with the project's best interests, even if it requires compromise from all parties.
+d) Decisive leadership: When consensus cannot be reached, make informed decisions that are in the project's best interest while explaining the rationale clearly to the team.
+13) What strategies do you use to ensure an architecture remains adaptable to future technological changes?
+Addressing the need for architectural adaptability, this question focuses on designing relevant and efficient systems as technology evolves. Key strategies include:
+a) Modular design: Implementing a modular architecture that allows for easy updates, replacements, or scaling of individual components without disrupting the entire system.
+b) Abstraction and encapsulation: Using abstraction layers to decouple components, minimise dependencies, and facilitate easier updates or technology shifts.
+c) Continuous learning and integration: It involve staying informed about emerging technologies and integrating them into the architecture when they offer clear benefits.
+d) Feedback loops: Establishing regular feedback and architecture review mechanisms, enabling timely adjustments based on new technological trends or business needs.

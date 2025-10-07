@@ -1,0 +1,20 @@
+Kafka
+
+https://www.youtube.com/watch?v=mYGir_ny-FI https://www.youtube.com/watch?v=gQsB2j8vu04 
+
+
+Springboot
+https://rathod-ajay.medium.com/recent-senior-java-developer-interview-experience-9ece646c17a2
+https://www.geeksforgeeks.org/spring-boot-interview-questions-and-answers/
+
+Dependency injection, DI IoC
+https://www.geeksforgeeks.org/spring-dependency-injection-with-example/?ref=
+https://www.geeksforgeeks.org/spring-ioc-container/?ref=
+
+Spring interview questions
+https://www.toptal.com/spring/interview-questions
+
+The trick with Spring Boot is that many things happen implicitly. We use the @SpringBootApplication annotation, but it’s a combination of three annotations:
+@Configuration
+@EnableAutoConfiguration
+@ComponentScan

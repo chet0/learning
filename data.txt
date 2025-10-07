@@ -1,0 +1,12 @@
+Modern & streaming data architecture
+
+
+https://medium.com/@techattu/modern-data-streaming-architecture-9d518c371066
+
+https://www.upsolver.com/blog/streaming-data-architecture-key-components
+
+https://mattturck.com/wp-content/uploads/2021/12/2021-MAD-Landscape-v3.pdf
+
+https://www.moderndatastack.xyz/category/data-streaming
+
+https://www.orientsoftware.com/blog/streaming-data-architecture/

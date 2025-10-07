@@ -1,0 +1,82 @@
+List in Java provides ordered and indexed collection which may contain duplicates. 
+
+Read more: 
+https://www.java67.com/2013/01/difference-between-set-list-and-map-in-java.html#ixzz6jQjHvmST
+The Set interface provides an unordered collection of unique objects, i.e. Set doesn't allow duplicates, while Map provides a data structure based on key-value pair and hash
+
+Read more: https://www.java67.com/2013/01/difference-between-set-list-and-map-in-java.html#ixzz6jQjVuR3P
+]
+
+https://medium.com/javarevisited/my-interviewer-asked-so-is-string-immutable-in-java-5e22579bc69f
+
+java streams
+https://medium.com/javarevisited/why-senior-java-devs-swear-by-these-10-stream-hacks-7ceb974d0a29
+Collections
+https://blog.stackademic.com/mastering-java-collections-tricky-interview-questions-f8bbde2b536a
+
+A must to read: https://www.toptal.com/java/interview-questions
+
+Java memory model
+https://www.geeksforgeeks.org/g-fact-46/?ref=next_article
+
+https://www.youtube.com/watch?app=desktop&v=LCSqZyjBwWA&t=0s
+
+
+From concurrent to parallel
+
+https://developer.ibm.com/articles/j-java-streams-4-brian-goetz/
+
+https://github.com/DopplerHQ/awesome-interview-questions?tab=readme-ov-file#java
+ https://www.youtube.com/playlist?list=PLzzeuFUy_Cngn3JZEXtu6G923y5v8y-8h
+List of YouTube videos
+https://javarevisited.blogspot.com/2011/02/how-hashmap-works-in-java.html
+How hashmap works in java
+https://www.geeksforgeeks.org/internal-working-of-hashmap-java/
+
+https://javarevisited.blogspot.com/2017/01/how-to-prepare-for-java-interviews.html
+
+
+https://rathod-ajay.medium.com/recent-senior-java-developer-interview-experience-9ece646c17a2
+
+
+https://www.applypass.com/post/23-java-interview-questions-for-senior-developers-with-answers
+
+
+GENERAL
+
+https://github.com/samayun/devbooks/tree/master
+
+Data intensive applications, k8s, Redis books
+ https://www.freecodecamp.org/news/stateful-vs-stateless-architectures-explained/
+
+https://quizlet.com/
+
+
+https://dev.to/ishratumar/github-repositories-for-interview-questions-281a
+
+
+Kubernetes:
+0.
+https://komodor.com/blog/a-software-developers-guide-to-getting-started-with-kubernetes-part-1/
+https://komodor.com/blog/a-software-developers-guide-to-getting-started-with-kubernetes-part-2/
+
+https://www.index.dev/blog/kubernetes-for-software-engineers-what-no-one-tells-you-but-you-need-to-know
+
+https://www.youtube.com/watch?v=TlHvYWVUZyc
+
+1.
+Honestly, I'm going to recommend another way.
+Do not waste time setting up your own Kubernetes cluster; use any cloud provider's fully managed Kubernetes cluster. Nowadays, for the most part, people don't set
+up their clusters, I don't think you gain much, and you'll waste a lot of time here needlessly. If on AWS, I recommend creating your cluster with EKSCTL and here is my Article on Creating an EKS Cluster.
+Next, learn how to configure everything on it to do everything you want. Typically, there are 10-30 foundational services you'll want to install on it to make everything work. Cluster-Autoscaler, an ingress controller,a mesh network technology, various CSI volume provisioners, a runner for your chosen CI/CD platform, a disk volume autoscaler (shameless plug, I wrote this) etc.
+With the above, you should learn to deploy Helm charts on your cluster and then learn to deploy some of your services onto it, exposing them to the internet. Learn to install and use Prometheus and Grafana on it to get in-depth metrics and visualization. Learn how to use Prometheus Alertmanager to trigger alerts to your email, webhooks, slack, etc. There's a lot to learn, and it may feel intimidating, but get the ball rolling and incrementally improve/expand your experience. I have some Universal Helm Charts which are in a helm repo you can use to make deploying your services into Kubernetes. It lacks some documentation, but some examples are here.
+Once you get some basics working and understanding, you'll want to dive into setting up and testing autoscaling (via HPA), considering alternate autoscaling (eg VPA). Will try to experiment with and play with how scaling works with the cluster-autoscaler. Using Grafana to visualize and audit/adjust the resource limits on your services to utilize resources better and to guarantee a minimum level of quality of your services.
+Feel free to ask if you have more questions. I have a bit of a blog I'm promoting and writing more articles about on there, and I have a few Github orgs which are companions to my blog and my upcoming book. Check them out if you want a bit to read.
+* https://www.devops-nirvana.com/
+* https://github.com/DevOps-Nirvana/
+* https://github.com/AndrewFarley
+2.
+https://kubernetes.io/docs/concepts/architecture/controller/
+
+3.
+https://medium.com/wisemonks/how-to-learn-kubernetes-complete-roadmap-resources-with-images-2f659246327c

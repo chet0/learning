@@ -1,0 +1,17 @@
+programming styles can be categorized into imperative and declarative programming paradigms.
+
+The imperative approach defines a program as a sequence of statements that change the program’s state until
+it reaches the final state
+
+Procedural programming is a type of imperative programming where we construct programs using procedures or subroutines. One of the popular programming paradigms known as Object-Oriented Programming (OOP) extends procedural programming concepts.
+
+In contrast, the declarative approach expresses the logic of a computation without describing its control flow in terms of a sequence of statements.
+
+Simply put, the declarative approach’s focus is to define what the program has to achieve rather than how it should achieve it. Functional programming is a subset of the declarative programming languages.
+
+
+source
+https://www.baeldung.com/java-functional-programming
+
+
+
