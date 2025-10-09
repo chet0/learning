@@ -1,0 +1,25 @@
+https://codeburst.io/100-coding-interview-questions-for-programmers-b1cf74885fb7?gi=98090900e637
+
+https://www.java67.com/2012/09/top-10-java-design-pattern-interview-question-answer.html
+
+Start preparation from here:
+https://www.java67.com/2012/09/top-10-java-design-pattern-interview-question-answer.html
+
+gives directions to prepare:
+OOP Design Patterns... and so on
+DecoratorStrategyObserverState(State vs Strategy)CompositeSingletonTemplate methodFactory( Factory vs Abstract Factory)DecoratorProxy (Proxy vs Decorator)Adapter
+TODO::
+spring interview questionsjava system design( aka java design questions)
+UML
+https://www.codeproject.com/Articles/618/OOP-and-UML
+https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/
+
+BFS, DFS, DijkstraBFS vs DFSBFS DFS Dijkstra complexityBFS DFS binary treepreorder, inorder, postorder
+
+https://www.java67.com/search/label/core%20java%20interview%20question%20answerhttps://www.java67.com/2013/01/difference-between-set-list-and-map-in-java.html
+https://www.simplilearn.com/tutorials/java-tutorial/java-interview-questions
+https://www.toptal.com/java/interview-questions
+https://rathod-ajay.medium.com/recent-senior-java-developer-interview-experience-9ece646c17a2
+https://javarevisited.blogspot.com/2017/01/how-to-prepare-for-java-interviews.html
+
+https://codeburst.io/100-coding-interview-questions-for-programmers-b1cf74885fb7?gi=98090900e637

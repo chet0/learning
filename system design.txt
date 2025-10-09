@@ -13,6 +13,17 @@ https://ehotinger.com/blog/system-design-interviews-framework-and-strategy/
 
 https://huixxi.github.io/2020/07/13/Basic-System-Design
 
+
+https://algodaily.com/lessons/a-systems-design-primer-for-new-engineers
+
+https://github.com/donnemartin/system-design-primer
+
+https://www.slideshare.net/jboner/scalability-availability-stability-patterns/
+
+https://www.youtube.com/watch?v=-W9F__D3oY4&t=4323s
+
+https://www.youtube.com/watch?v=gmKPkRCLNek
+
 10 common software architectural patterns in a nutshell
 
 https://medium.com/data-science/10-common-software-architectural-patterns-in-a-nutshell-a0b47a1e9013

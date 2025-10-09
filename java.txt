@@ -1,4 +1,4 @@
-List in Java provides ordered and indexed collection which may contain duplicates. 
+List in Java provides ordered and indexed collection which may contain duplicates. 
 
 Read more: 
 https://www.java67.com/2013/01/difference-between-set-list-and-map-in-java.html#ixzz6jQjHvmST
@@ -21,6 +21,13 @@ https://www.geeksforgeeks.org/g-fact-46/?ref=next_article
 
 https://www.youtube.com/watch?app=desktop&v=LCSqZyjBwWA&t=0s
 
+https://medium.com/@kp9810113/forget-hashmap-these-3-hidden-java-maps-made-my-code-3-faster-5b9e0a8eb17e
+
+https://medium.com/@harrymarkjava/interviewer-asked-me-why-is-1-1-true-but-1000-1000-false-in-java-af810be7fdbf?source=email-b0eecd119a4f-1759105119650-digest.reader-9cf31c9fda1a-af810be7fdbf----0-109------------------83939333_2890_4347_a111_825262e8fe9d-1
+
+https://freedium.cfd/https://medium.com/javarevisited/my-interviewer-asked-so-is-string-immutable-in-java-5e22579bc69f
+
+https://www.baeldung.com/java-functional-programming
 
 From concurrent to parallel
 
@@ -41,6 +48,9 @@ https://rathod-ajay.medium.com/recent-senior-java-developer-interview-experience
 
 https://www.applypass.com/post/23-java-interview-questions-for-senior-developers-with-answers
 
+1. http://www.codeproject.com/Articles/30422/How-the-Java-Virtual-Machine-JVM-Works
+
+2. http://www.codeproject.com/Articles/642499/Learn-JavaScript-Part-Create-a-Starfield
 
 GENERAL
 
