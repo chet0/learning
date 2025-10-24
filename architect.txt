@@ -1,0 +1,11 @@
+http://www.kanneganti.com/technical/architect
+
+recommended links for software architect resources from SAP:
+
+http://www.bredemeyer.com/
+http://www.sei.cmu.edu/
+
+https://www.softwarearchitectureportal.org/
+
+https://zuehlke.github.io/machines-code-people/articles/as_long_as.html
+
