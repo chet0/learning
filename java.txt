@@ -9,6 +9,17 @@ Read more: https://www.java67.com/2013/01/difference-between-set-list-and-map-i
 
 https://medium.com/javarevisited/my-interviewer-asked-so-is-string-immutable-in-java-5e22579bc69f
 
+Java memory model, jmm, е създаде от
+Jeremy Manson and Brian Goetz
+https://www.cs.umd.edu/~pugh/java/memoryModel/jsr-133-faq.html
+
+Brian Goetz - lead java architect
+
+https://inside.java/u/BrianGoetz/
+
+https://jeremymanson.blogspot.com/2008/11/what-volatile-means-in-java.html
+
+
 java streams
 https://medium.com/javarevisited/why-senior-java-devs-swear-by-these-10-stream-hacks-7ceb974d0a29
 Collections
